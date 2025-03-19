@@ -1,16 +1,3 @@
-# apnacollege-demo
-This is my first Git repository.
-Aurthor - Abeda Mehmood
-/netflix-clone/
-  ├── /assets/
-  │     ├── banner.jpg
-  │     ├── logo.png
-  │     └── avatar.png
-  ├── /css/
-  │     └── style.css
-  ├── /js/
-  │     └── script.js
-  ├── index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -273,12 +260,7 @@ document.addEventListener('DOMContentLoaded', function () {
       { title: "Inception", img: "https://image.tmdb.org/t/p/original/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg" },
       { title: "The Dark Knight", img: "https://image.tmdb.org/t/p/original/rSpXZsb5bMO1l1ZqZq1FzFz4fPb.jpg" },
       { title: "Interstellar", img: "https://image.tmdb.org/t/p/original/xZoW7p43Lro1yKnp0kzffzi9u5V.jpg" }
-    ],
-    actionMovies: [
-      { title: "Mad Max: Fury Road", img: "https://image.tmdb.org/t/p/original/aXr0cOgP6FadA31n9gndgjQe5Z7.jpg" },
-      { title: "The Avengers", img: "https://image.tmdb.org/t/p/original/ywcmHwrmDRg7eJv71z4b7kNly2u.jpg" }
     ]
-    // Add more movie categories as needed...
   };
 
   function populateMovies(sectionId, movies) {
@@ -303,5 +285,4 @@ document.addEventListener('DOMContentLoaded', function () {
   // Populate sections with data
   populateMovies('trending-now', movieData.trendingNow);
   populateMovies('top-rated', movieData.topRated);
-  populateMovies('action-movies', movieData.actionMovies);
 });
